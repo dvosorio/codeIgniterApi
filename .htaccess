@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|robots\.txt|sitemap\.xml|plantilla)
+RewriteRule ^(.*)$ index.php/$1 [L]
+RewriteCond %{REQUEST_FILNAME} !-f
+RewriteCond %{REQUEST_FILNAME} !-d
