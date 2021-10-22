@@ -10,13 +10,13 @@ Este archivo explica el procedimiento para ejecutar el proyecto
 
 ### Vistas
 
--  http://localhost/`{carpeta}`/productos/.
+-  /`{proyecto}`/productos/.
 
 ### Apis
 
--  http://localhost/`{carpeta}`/api/crear/ | `POST` | *nombre, referencia, precio, peso, categoria, stock*
--  http://localhost/`{carpeta}`/api/editar/id/`id`/?`campos` | `PUT` *nombre, referencia, precio, peso, categoria, stock*
--  http://localhost/`{carpeta}`/api/list/ | `GET`
--  http://localhost/`{carpeta}`/api/info/id/`id`/ | `GET`
--  http://localhost/`{carpeta}`/api/eliminar/id/`id`/ | `DELETE`
+-  /`{proyecto}`/api/crear/ | `POST` | *nombre, referencia, precio, peso, categoria, stock*
+-  /`{proyecto}`/api/editar/id/`id`/?`campos` | `PUT` *nombre, referencia, precio, peso, categoria, stock*
+-  /`{proyecto}`/api/list/ | `GET`
+-  /`{proyecto}`/api/info/id/`id`/ | `GET`
+-  /`{proyecto}`/api/eliminar/id/`id`/ | `DELETE`
 
