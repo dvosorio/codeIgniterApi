@@ -1,4 +1,4 @@
-## PRUEBA KONECTA
+## PRUEBA API
 
 Este archivo explica el procedimiento para ejecutar el proyecto
 
